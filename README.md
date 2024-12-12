@@ -8,21 +8,9 @@ This analysis investigates the impacts of urban sprawl on BII in the Phoenix Sub
 - Using an API to load data
 - Manipulating raster data with rioxarray
 - Manipulating raster data through raster math
-- 
-## Repository Structure
-├── LICENSE
-├── README.md
-├── data
-│   ├── California_Fire_Perimeters_2017
-│   │   ├── California_Fire_Perimeters_2017.cpg
-│   │   ├── California_Fire_Perimeters_2017.dbf
-│   │   ├── California_Fire_Perimeters_2017.prj
-│   │   ├── California_Fire_Perimeters_2017.shp
-│   │   └── California_Fire_Perimeters_2017.shx
-│   └── landsat8-2018-01-26-sb-simplified.nc
-└── thomas-fire-analysis.ipynb
 
 ## Repository Structure
+```bash
 ├── README.md
 ├── .gitignore
 ├── data
@@ -35,7 +23,19 @@ This analysis investigates the impacts of urban sprawl on BII in the Phoenix Sub
 │       ├── tl_2022_04_cousub.shp.iso.xml
 │       └── tl_2022_04_cousub.shx  
 └── bii-changes-maricopa-county.ipynb
+```
 
 ## Data
+Biodiversity Intactness Index (BII) Time Series: Raster data depicting the intactness of biodiversity. This data is avaliable through the Microsoft Planetary Computer STAC catalog. The SpatioTemporal Asset Catalog (STAC) is a new standard for geospatial data, particulary for satellite imagery. To obtain data from a STAC catalog, we use an Application Programming Interface (API). The API acts as an intermediary between the STAC catalog and ourselves.
+
+Phoenix Subdivision Shapefile: Shapefile of the Phoenix Subdivision as a subset of the larger shapefile of Arizona county subdivisions. This data is housed within the repository. Obtained from the United States Census Bureau.
 
 ## References
+2022 TIGER/Line® Shapefiles: County Subdivisions, US Census Bureau, Geography Division. (2022). https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2022&layergroup=County+Subdivisions. [Accessed: Dec. 4, 2024]
+
+Biodiversity Intactness, Microsoft Open Source, Matt McFarland, Rob Emanuele, Dan Morris, & Tom Augspurger. (2022). microsoft/PlanetaryComputer: October 2022 (2022.10.28). Zenodo. https://doi.org/10.5281/zenodo.7261897. [Accessed: Dec. 12, 2024]
+
+F. Gassert, J. Mazzarello, and S. Hyde, “Global 100m Projections of Biodiversity Intactness for the years 2017-2020 [Technical Whitepaper].” Aug. 2022. Available: https://ai4edatasetspublicassets.blob.core.windows.net/assets/pdfs/io-biodiversity/Biodiversity_Intactness_whitepaper.pdf
+
+Z. Levitt and J. Eng, “Where America’s developed areas are growing: ‘Way off into the horizon’,” The Washington Post, Aug. 2021, Available: https://www.washingtonpost.com/nation/interactive/2021/land-development-urban-growth-maps/. [Accessed: Nov. 22, 2024]
+
