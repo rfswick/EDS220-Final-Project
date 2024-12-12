@@ -39,4 +39,4 @@ F. Gassert, J. Mazzarello, and S. Hyde, “Global 100m Projections of Biodiversi
 
 Z. Levitt and J. Eng, “Where America’s developed areas are growing: ‘Way off into the horizon’,” The Washington Post, Aug. 2021, Available: https://www.washingtonpost.com/nation/interactive/2021/land-development-urban-growth-maps/. [Accessed: Nov. 22, 2024]
 
-*Special thank you to Professor Carmen Galaz García and her course materials from EDS220*
+*Special thank you to Professor Carmen Galaz García and her course materials from EDS220.*
