@@ -8,6 +8,19 @@ This analysis investigates the impacts of urban sprawl on BII in the Phoenix Sub
 - Using an API to load data
 - Manipulating raster data with rioxarray
 - Manipulating raster data through raster math
+- 
+## Repository Structure
+├── LICENSE
+├── README.md
+├── data
+│   ├── California_Fire_Perimeters_2017
+│   │   ├── California_Fire_Perimeters_2017.cpg
+│   │   ├── California_Fire_Perimeters_2017.dbf
+│   │   ├── California_Fire_Perimeters_2017.prj
+│   │   ├── California_Fire_Perimeters_2017.shp
+│   │   └── California_Fire_Perimeters_2017.shx
+│   └── landsat8-2018-01-26-sb-simplified.nc
+└── thomas-fire-analysis.ipynb
 
 ## Repository Structure
 ├── README.md
